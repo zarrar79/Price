@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    margin-bottom: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 150vh;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+}
+.left{
+    /* border: 1px solid; */
+}
+.mid{
+    border: 1px solid;
+    background-color: #1D4ED8;
+    box-shadow: 0 ;
+    box-shadow: 0, 10, 25,0,#CCD9FF;
+    border-radius: 12px;
+    gap: 40px;
+}
+.right{
+    gap: 40px;
+    margin-top: 1%;
+    /* border: 1px solid; */
+}
+.head{
+    grid-column: 1/4;
+}
+.features{
+    margin-top: 9vh;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+.lower{
+    font-size: 40px;
+    color:#1D4ED8;
+}
+.text{
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: DM Sans;
+    color: #191D23;
+}
+.first{
+    padding: 3%;
+}
+.pay{
+    display: flex;
+    justify-content: center;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+}
+.monthly{
+    padding-right: 29px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #191D23;
+}
+.yearly{
+    padding-left: 29px;
+}
+.btnimg{
+    cursor: pointer;
+}
+.sign{
+    display: flex;
+    margin-left: 60%;
+    width: 25%;
+    align-items: end;
+}
+.save{
+    color:#1D4ED8;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: DM Sans;
+}
+.freebie{
+    font-weight: 700;
+    font-size: 22px;
+    font-family: Manrope;
+    color: #191D23;
+}
+.para{
+    font-family: Manrope;
+    color:#64748B;
+    font-weight: 400;
+    font-size: 16px;
+}
+.dollar{
+    font-family: Manrope;
+    font-size: 66px;
+    font-weight: 400;
+}
+.month{
+    font-family: Manrope;
+    font-weight: 300;
+    font-size: 16px;
+}
+.getstart{
+    color: #1D4ED8;
+    padding: 10px;
+    margin-top: 1.5vh;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    width: 87.5%;
+    border: 1.5px #1D4ED8 solid;
+    height: 8vh;
+    border-radius: 4px;
+}
+.contain{
+    display: flex;
+
+}
+.contain img{
+    margin-top: 3%;
+    width: 7.5%;
+    height: 4.5vh;
+}
+.graphics{
+    justify-content: center;
+    font-family: Manrope;
+    margin-left: 3%;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    color: #191D23;
+}
+.cross{
+    font-family: Manrope;
+    margin-left: 3%;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    color:  #A0ABBB;
+}
+.mid {
+     color: #FFFFFF;;
+    padding-left: 3%;
+    gap: 40px;
+}
+.mid img{
+    width: 8%;
+    height: 4.3vh;
+}
+.mid .freebie{
+    color: 
+    #FFFFFF;
+}
+.mid .graphics{
+    color: #FFFFFF;;
+}
+.mid .cross{
+    color: #FFFFFF;;
+}
+.mid .para{
+    color: #FFFFFF;
+}
+.right{
+    padding-left: 3%;
+    margin-left: 6%;
+}
+.right img{
+    width: 8.3%;
+    height: 4.5vh;
+}
+.right .getstart{
+    width: 97%;
+}
