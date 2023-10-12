@@ -52,6 +52,7 @@ body{
     padding: 3%;
 }
 .pay{
+    margin-top: 8.5vh;
     display: flex;
     justify-content: center;
     font-family: DM Sans;
@@ -59,13 +60,13 @@ body{
     font-size: 16px;
 }
 .monthly{
-    padding-right: 29px;
+    padding-right: 4vh;
     font-weight: 400;
     font-size: 16px;
     color: #191D23;
 }
 .yearly{
-    padding-left: 29px;
+    padding-left: 4vh;
 }
 .btnimg{
     cursor: pointer;
@@ -144,12 +145,14 @@ body{
     color:  #A0ABBB;
 }
 .mid {
+    padding-top: 2vh;
+    padding-bottom: 4vh;
      color: #FFFFFF;;
     padding-left: 3%;
     gap: 40px;
 }
 .mid img{
-    width: 8%;
+    width: 7.5%;
     height: 4.3vh;
 }
 .mid .freebie{
