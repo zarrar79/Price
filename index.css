@@ -6,7 +6,7 @@ body{
     margin-bottom: 20%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr;
     height: 150vh;
     margin-left: 6.5%;
     margin-right: 6.5%;
@@ -73,15 +73,15 @@ body{
 }
 .sign{
     display: flex;
-    margin-left: 60%;
-    width: 25%;
+    margin-left: 63%;
+    width: 14%;
     align-items: end;
-    height: 15vh;
+    height: 10vh;
 }
 .save{
     color:#1D4ED8;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 590;
+    font-size: 12px;
     font-family: DM Sans;
 }
 .freebie{
