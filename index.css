@@ -36,6 +36,7 @@ body{
     font-weight: 700;
 }
 .lower{
+    padding-top: 3vh;
     font-size: 40px;
     color:#1D4ED8;
 }
@@ -58,12 +59,14 @@ body{
     font-size: 16px;
 }
 .monthly{
+    padding-top: .6vh;
     padding-right: 4vh;
     font-weight: 400;
     font-size: 16px;
     color: #191D23;
 }
 .yearly{
+    padding-top: .6vh;
     padding-left: 4vh;
 }
 .btnimg{
@@ -180,4 +183,32 @@ body{
 }
 .right .getstart{
     width: 97%;
+}
+input{
+    -webkit-appearance: none;
+    position: relative;
+    width: 44px;
+    height: 24px;
+    background-color:#040921;
+    border-radius: 12px;
+    transition :background .3s;
+    outline: none;
+    cursor: pointer;
+}
+input::after
+{
+   content: '';
+   position: absolute;
+   width: 3vh;
+   top: 48%;
+   left: 27%;
+   height: 3vh;
+   transform: translate(-50%,-50%);
+   border-radius: 50%;
+   background-color:#FFFFFF ;
+   transition: left .3s;
+}
+input:checked::after{
+    left: 70%;
+
 }
