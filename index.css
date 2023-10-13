@@ -122,9 +122,8 @@ body{
 }
 .contain{
     display: flex;
-
 }
-.contain img{
+.contain img{ 
     margin-top: 3.7%;
     width: 7.2%;
     height: 4.2vh;
