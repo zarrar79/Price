@@ -182,6 +182,9 @@ body{
     width: 8%;
     height: 4.3vh;
 }
+.right .cross{
+    color: #191D23;
+}
 .right .getstart{
     width: 97%;
 }
