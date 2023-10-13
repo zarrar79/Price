@@ -194,7 +194,7 @@ input{
     height: 24px;
     background-color:#040921;
     border-radius: 12px;
-    transition :background .3s;
+    transition :background .3;
     outline: none;
     cursor: pointer;
 }
