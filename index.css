@@ -15,9 +15,7 @@ body{
     /* border: 1px solid; */
 }
 .mid{
-    border: 1px solid;
     background-color: #1D4ED8;
-    box-shadow: 0 ;
     box-shadow: 0, 10, 25,0,#CCD9FF;
     border-radius: 12px;
     gap: 40px;
@@ -52,7 +50,7 @@ body{
     padding: 3%;
 }
 .pay{
-    margin-top: 8.5vh;
+    margin-top: 8vh;
     display: flex;
     justify-content: center;
     font-family: DM Sans;
@@ -76,6 +74,7 @@ body{
     margin-left: 60%;
     width: 25%;
     align-items: end;
+    height: 15vh;
 }
 .save{
     color:#1D4ED8;
@@ -145,14 +144,14 @@ body{
     color:  #A0ABBB;
 }
 .mid {
-    padding-top: 2vh;
+    padding-top: 1vh;
     padding-bottom: 4vh;
      color: #FFFFFF;;
     padding-left: 3%;
     gap: 40px;
 }
 .mid img{
-    width: 7.5%;
+    width: 8%;
     height: 4.3vh;
 }
 .mid .freebie{
@@ -165,6 +164,9 @@ body{
 .mid .cross{
     color: #FFFFFF;;
 }
+.mid .getstart{
+   width: 94%;
+}
 .mid .para{
     color: #FFFFFF;
 }
@@ -173,8 +175,8 @@ body{
     margin-left: 6%;
 }
 .right img{
-    width: 8.3%;
-    height: 4.5vh;
+    width: 8%;
+    height: 4.3vh;
 }
 .right .getstart{
     width: 97%;
