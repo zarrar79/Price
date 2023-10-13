@@ -119,6 +119,7 @@ body{
     border: 1.5px #1D4ED8 solid;
     height: 8vh;
     border-radius: 4px;
+    cursor: pointer;
 }
 .contain{
     display: flex;
