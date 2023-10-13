@@ -25,7 +25,7 @@ body{
     margin-top: 1%;
 }
 .head{
-    grid-column: 1/4;
+    grid-column: 1/4;                                                                                            
 }
 .features{
     margin-top: 9vh;
@@ -192,7 +192,7 @@ input{
     position: relative;
     width: 44px;
     height: 24px;
-    background-color:#040921;
+    background-color:#ccc;
     border-radius: 12px;
     transition :background .3;
     outline: none;
@@ -208,7 +208,7 @@ input::after
    height: 3vh;
    transform: translate(-50%,-50%);
    border-radius: 50%;
-   background-color:#FFFFFF ;
+   background-color:#FFFFFF;
    transition: left .3s;
 }
 input:checked::after{
