@@ -23,7 +23,6 @@ body{
 .right{
     gap: 40px;
     margin-top: 1%;
-    /* border: 1px solid; */
 }
 .head{
     grid-column: 1/4;
@@ -126,9 +125,9 @@ body{
 
 }
 .contain img{
-    margin-top: 3%;
+    margin-top: 3.7%;
     width: 7.2%;
-    height: 4.5vh;
+    height: 4.2vh;
 }
 .graphics{
     justify-content: center;
@@ -155,6 +154,7 @@ body{
     gap: 40px;
 }
 .mid img{
+    margin-top: 2.2vh;
     width: 7.5%;
     height: 4.3vh;
 }
@@ -179,7 +179,7 @@ body{
     margin-left: 6%;
 }
 .right img{
-    width: 8%;
+    width: 7.7%;
     height: 4.3vh;
 }
 .right .cross{
